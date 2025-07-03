@@ -1,0 +1,7 @@
+2025-07-03 20:53:30,229 - INFO - Login successful for: standard_user
+2025-07-03 20:53:35,856 - ERROR - Login failed for: locked_out_user - Reason: Login failed (locked out or invalid user)
+2025-07-03 20:53:39,308 - INFO - Login successful for: problem_user
+2025-07-03 20:53:49,948 - INFO - Login successful for: performance_glitch_user
+2025-07-03 20:53:55,480 - INFO - Login successful for: error_user
+2025-07-03 20:54:01,121 - INFO - Login successful for: visual_user
+2025-07-03 20:54:06,701 - ERROR - Login failed for: Hello - Reason: Login failed (locked out or invalid user)

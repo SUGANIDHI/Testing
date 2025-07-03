@@ -1,0 +1,22 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Test Report</title>
+    <style>
+        body { font-family: Arial; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+        .pass { color: green; }
+        .fail { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Login Test Report</h2>
+    <table>
+        <tr><th>Username</th><th>Status</th><th>Error</th><th>Screenshot</th></tr>
+<tr><td>standard_user</td><td class='pass'>Pass</td><td></td><td><a href='screenshots/standard_user_success.png' target='_blank'>View</a></td></tr><tr><td>locked_out_user</td><td class='fail'>Fail</td><td>Login failed (locked out or invalid user)</td><td><a href='screenshots/locked_out_user_fail.png' target='_blank'>View</a></td></tr><tr><td>problem_user</td><td class='pass'>Pass</td><td></td><td><a href='screenshots/problem_user_success.png' target='_blank'>View</a></td></tr><tr><td>performance_glitch_user</td><td class='pass'>Pass</td><td></td><td><a href='screenshots/performance_glitch_user_success.png' target='_blank'>View</a></td></tr><tr><td>error_user</td><td class='pass'>Pass</td><td></td><td><a href='screenshots/error_user_success.png' target='_blank'>View</a></td></tr><tr><td>visual_user</td><td class='pass'>Pass</td><td></td><td><a href='screenshots/visual_user_success.png' target='_blank'>View</a></td></tr><tr><td>Hello</td><td class='fail'>Fail</td><td>Login failed (locked out or invalid user)</td><td><a href='screenshots/Hello_fail.png' target='_blank'>View</a></td></tr>
+    </table>
+</body>
+</html>
